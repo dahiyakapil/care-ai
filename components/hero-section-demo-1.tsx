@@ -2,9 +2,8 @@
 
 
 import { motion } from "motion/react";
-import { FeatureBentoGrid } from "./-components/FeatureBentoGrid";
 
-export default function Page() {
+export default function HeroSectionOne() {
   return (
     <div className="relative mx-auto my-10 flex max-w-7xl flex-col items-center justify-center">
       <Navbar />
@@ -100,7 +99,6 @@ export default function Page() {
           </div>
         </motion.div>
       </div>
-      <FeatureBentoGrid />
     </div>
   );
 }
